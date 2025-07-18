@@ -8,12 +8,15 @@
   font-weight: 400;
   font-style: normal;
 }
+
 .bg-light{
  background-color: #FFF4E7;
 }
+
 .display-flex{
   display: flex;
 }
+
 .navbar{
   justify-content: space-between;
   align-items: center;
@@ -24,44 +27,55 @@ list-style: none;
 margin: 30px;
 
 }
+
 .brand{
 font-weight: 700;
 font-size: 45px;
 align-items: center;
 }
+
 .banner{
  max-width: 1440px;
  margin: 0 auto;
 }
+
 .banner-content{
    text-align: center;
 }
+
 /* dark-2 */
 .primary-color{
   color: #424242;
 }
+
 .nav-link{
 text-decoration: none;
 font-weight: 500;
 font-size: 18px;
 }
+
 .banner-image{
   width: 100%;
   padding-bottom: 45px;
+  /* margin-left: 228px;
+  margin-right: 252px; */
 }
   
  .first-banner{
     padding bottom: 45px;
    }
+
   .header-headline{
  font-weight: bold;
   font-size: 4rem;
   }
+
   .heading-description{
 font-weight: 200;
 font-size: 1rem;
 color: #727272;
   }
+
 .btn-primary{
   background-color: #FF900E;
   font-weight: 400;
@@ -74,6 +88,7 @@ color: #727272;
  margin-bottom: 50px;
 
 }
+
 /* main first section */
 main{
   max-width: 1440px;
@@ -81,6 +96,8 @@ main{
 }
 main>section{
   margin-top: 120px;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 .four-image{
   display: grid;
@@ -101,21 +118,70 @@ color: #131313;
 font-weight: 700;
 font-size: 1.8rem;
 }
+/* features-section-design */
+.Features-section{
+ gap: 140px;
+}
+
+#Features-design{
+  border-left: 5px solid #FF900E;
+  padding-left: 20px;
+}
 .Features{
 font-weight: bold;
 font-size: 1.8rem;
 color: #FF900E;
 }
+.features-card{
+  padding: 30px;
+box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
+margin-bottom: 20px;
+
+}
+
+.features-card .features-title{
+font-weight: 600;
+font-size: 1.25rem;
+margin-top: 0px;
+margin-bottom: 0px;
+}
+
+.Features-description{
+
+}
+
+#Experiences-bage{
+ padding: 45px 42px;
+ margin-top: 0px;
+ margin-left: -100px;
+ margin-top: -100px;
+}
+
+.Experiences{
+  font-size: 1.6rem;
+  color: #FFFFFF;
+  font-weight: 400;
+  /* padding: 45px 42px; */
+}
+
+#Experiences-years{
+  font-size: 4rem;
+  font-weight: 700;
+  color: #FFFFFF;
+}
+
 .first-section-description{
   font-size: 1rem;
   font-weight: 100;
   color: #4e4d4d;
 }
+
 .fact-container{
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   
 }
+
 .fact{
   border: 1px solid #FF900E;
   width: 240px;
@@ -125,11 +191,26 @@ color: #FF900E;
   align-items: center;
   justify-content: center;
 }
- 
+
+ /* .sponsors-icon style */
+ .sponsors-container{
+  text-align: center;
+ }
+
  .sponsors-icon{
   display: grid;
   grid-template-columns: repeat(5, 1fr);
  }
+
+.sponsors-heading{
+  margin-left: 240px;
+}
+
+
+.sponsors-description{
+  margin-left: 240px;
+}
+
 .footer-role{
   background-color: #FFF4E7;
   margin-top: 120px;
@@ -144,6 +225,7 @@ color: #FF900E;
   align-items: center;
   
 }
+
 @media screen and (max width: 576px) {
   .navbar, .nav-links, .display-flex {   
    flex-direction: column; 
